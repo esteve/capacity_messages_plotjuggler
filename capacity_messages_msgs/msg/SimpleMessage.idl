@@ -1,0 +1,14 @@
+#include "builtin_interfaces/msg/Time.idl"
+
+module capacity_messages_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      " A simpple message to test PlotJuggler")
+    struct SimpleMessage {
+      builtin_interfaces::msg::Time time_value;
+
+      @default (value=0.0)
+      float float_value;
+    };
+  };
+};

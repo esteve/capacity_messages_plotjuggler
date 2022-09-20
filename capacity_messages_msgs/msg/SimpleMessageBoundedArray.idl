@@ -1,0 +1,17 @@
+#include "capacity_messages_msgs/msg/SimpleMessage.idl"
+#include "std_msgs/msg/Header.idl"
+
+module capacity_messages_msgs {
+  module msg {
+    module SimpleMessageBoundedArray_Constants {
+      const uint32 CAPACITY = 10000;
+    };
+    @verbatim (language="comment", text=
+      " A set of SimpleMessage")
+    struct SimpleMessageBoundedArray {
+      std_msgs::msg::Header header;
+
+      sequence<capacity_messages_msgs::msg::SimpleMessage, 10000> simple_messages;
+    };
+  };
+};
