@@ -5,7 +5,7 @@ module capacity_messages_msgs {
   module msg {
     @verbatim (language="comment", text=
       " A set of SimpleMessage")
-    struct SimpleMessageBoundedArray {
+    struct SimpleMessageBoundedArray1000 {
       std_msgs::msg::Header header;
 
       sequence<capacity_messages_msgs::msg::SimpleMessage, 1000> simple_messages;

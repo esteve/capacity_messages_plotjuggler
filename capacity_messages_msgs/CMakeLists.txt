@@ -10,7 +10,9 @@ ament_auto_find_build_dependencies()
 
 rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/SimpleMessage.idl"
-  "msg/SimpleMessageBoundedArray.idl"
+  "msg/SimpleMessageBoundedArray100.idl"
+  "msg/SimpleMessageBoundedArray1000.idl"
+  "msg/SimpleMessageBoundedArray10000.idl"
   DEPENDENCIES
     "std_msgs"
   ADD_LINTER_TESTS
