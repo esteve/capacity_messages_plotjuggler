@@ -3,9 +3,6 @@
 
 module capacity_messages_msgs {
   module msg {
-    module SimpleMessageBoundedArray_Constants {
-      const uint32 CAPACITY = 10000;
-    };
     @verbatim (language="comment", text=
       " A set of SimpleMessage")
     struct SimpleMessageBoundedArray {
