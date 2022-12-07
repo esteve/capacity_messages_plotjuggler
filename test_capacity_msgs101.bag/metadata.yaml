@@ -1,0 +1,27 @@
+rosbag2_bagfile_information:
+  version: 6
+  storage_identifier: sqlite3
+  duration:
+    nanoseconds: 98920172151
+  starting_time:
+    nanoseconds_since_epoch: 1670434783357937883
+  message_count: 100
+  topics_with_message_count:
+    - topic_metadata:
+        name: /test_capacity_topic101
+        type: capacity_messages_msgs/msg/SimpleMessageBoundedArray101
+        serialization_format: cdr
+        offered_qos_profiles: "- history: 3\n  depth: 0\n  reliability: 1\n  durability: 1\n  deadline:\n    sec: 9223372036\n    nsec: 854775807\n  lifespan:\n    sec: 9223372036\n    nsec: 854775807\n  liveliness: 1\n  liveliness_lease_duration:\n    sec: 9223372036\n    nsec: 854775807\n  avoid_ros_namespace_conventions: false"
+      message_count: 100
+  compression_format: ""
+  compression_mode: ""
+  relative_file_paths:
+    - test_capacity_msgs101.bag_0.db3
+  files:
+    - path: test_capacity_msgs101.bag_0.db3
+      starting_time:
+        nanoseconds_since_epoch: 1670434783357937883
+      duration:
+        nanoseconds: 98920172151
+      message_count: 100
+  custom_data: ~
